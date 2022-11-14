@@ -72,7 +72,8 @@ function crate5numbers() {
 function checkNumbers() {
     for (let i = 1; i <= 5; i++) {
         const currentNumberEl = document.getElementById(`user_number_${i}`);
-        if (random_numbers.includes(parseInt(currentNumberEl.value))) {
+        if (random_numbers.includes(parseInt(currentNumberEl.value)) && !correct_numbers.includes(currentNumberEl.value)) {
+            console.log(correct_numbers);
             correct_numbers.push(currentNumberEl.value);
         };
     }
