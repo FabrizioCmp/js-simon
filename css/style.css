@@ -6,6 +6,8 @@ input{
     width: 70px;
 }
 
+
+
 .title_text {
     text-align: center;
     margin: 3rem;
@@ -38,4 +40,10 @@ input{
 
 .btn_check{
     margin-top: 3rem;
+}
+
+.results_box{
+    margin-top: 2rem;
+    color: brown;
+    display: inline-block;
 }
