@@ -62,7 +62,7 @@ function crate5numbers() {
     setTimeout(function () {
         boxNumeriEl.classList.add("d-none");
         containerRemember.classList.remove("d-none");
-    }, 1000);
+    }, 30000);
 
     console.log(random_numbers);
 }
